@@ -1,0 +1,13 @@
+# Задачи и баги ведём в Redmine, а не в GitHub Issues.
+# Два трекера одной и той же работы расходятся за неделю, поэтому здесь только код.
+blank_issues_enabled: false
+contact_links:
+  - name: Задачи и требования
+    url: https://ai.nsu.ru/projects/dejaview
+    about: Задачи заводит менеджер проекта в Redmine. Нужна новая задача - напишите ментору направления.
+  - name: Сообщить о баге
+    url: https://ai.nsu.ru/projects/dejaview/issues/new?issue%5Btracker_id%5D=10
+    about: Трекер Bug в Redmine. Укажите шаги воспроизведения, ожидаемое и фактическое поведение, окружение.
+  - name: Как мы работаем
+    url: https://github.com/dejaview-nsu/dejaview-docs/blob/main/process.md
+    about: Процесс, статусы задач, роли и Definition of Done.

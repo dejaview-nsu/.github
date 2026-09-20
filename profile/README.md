@@ -19,8 +19,24 @@
 | [dejaview-frontend](https://github.com/dejaview-nsu/dejaview-frontend) | Веб-интерфейс (SPA) |
 | [dejaview-ml](https://github.com/dejaview-nsu/dejaview-ml) | Эмбеддинги и векторный поиск |
 | [dejaview-infra](https://github.com/dejaview-nsu/dejaview-infra) | Docker, CI/CD, деплой |
-| [dejaview-docs](https://github.com/dejaview-nsu/dejaview-docs) | Контракты API, архитектура, соглашения команды |
+| [dejaview-docs](https://github.com/dejaview-nsu/dejaview-docs) | Архитектура, контракты API, соглашения команды |
 
 ## Стек
 
-Python, FastAPI, PostgreSQL / pgvector, React / Vue, HuggingFace, Docker, REST API
+| Направление | Технологии |
+|---|---|
+| Backend | C++, CMake, PostgreSQL |
+| Frontend | React, TypeScript |
+| ML | Python, HuggingFace, Qdrant |
+| Инфраструктура | Docker, GitHub Actions |
+
+Подробно: [architecture.md](https://github.com/dejaview-nsu/dejaview-docs/blob/main/architecture.md).
+
+## Как ведём работу
+
+Требования, задачи, баги и учёт времени в Redmine: https://ai.nsu.ru/projects/dejaview
+
+GitHub только для кода: ветки, Pull Request, ревью. Issues в репозиториях не заводим, чтобы не раздваивать учёт.
+
+- Процесс: [process.md](https://github.com/dejaview-nsu/dejaview-docs/blob/main/process.md)
+- Соглашения: [conventions.md](https://github.com/dejaview-nsu/dejaview-docs/blob/main/conventions.md)
